@@ -4,7 +4,8 @@
   "description": "",
   "main": "sampleJS1.js",
   "scripts": {
-    "test": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "ava 'app/**/*.test.js' --verbose --require ./other/setup-ava-tests.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,5 @@
   "homepage": "https://github.com/bmontellano/tylersReact#readme",
   "dependencies": {
     "jquery": "^3.3.1"
-  },
-  "devDependencies": {
-    "coffee-loader": "^0.9.0"
   }
 }
